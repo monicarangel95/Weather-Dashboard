@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="bg-dark text-light" style="text-align: center;">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 text-white" style="padding: 1.5rem;">
+                <h4>Search for a city: </h4>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search City" aria-label="Search City"
+                        aria-describedby="button-addon2" id="search-term">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-light text-dark btn-light  search-button" type="button"
+                            id="button-addon2">Search</button>
+                    </div>
+                </div>
+                <ul id="city-list" style="list-style: none;"></ul>
+            </div>
+            <div class="col-sm-1 mr-n5"></div>
+            <div class="main-content col-md-8" style="padding: 1.5rem;">
+                <div class="jumbotron bg-transparent" id="current-day-forecast"
+                    style="padding-top: 1.5rem; padding-bottom: 1.5rem">
+                </div>
+
+                <div class="jumbotron bg-transparent" style="padding-top: 1.5rem; padding-bottom: 1.5rem">
+                    <div class="row" id="five-day-forecast"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/querys.js"></script>
+</body>
+</html>
