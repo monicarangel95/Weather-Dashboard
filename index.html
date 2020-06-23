@@ -15,6 +15,7 @@
     <header class="bg-dark text-light" style="text-align: center;">
         <h1>Weather Dashboard</h1>
     </header>
+    <!-- Search for a city input box -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3 text-white" style="padding: 1.5rem;">
@@ -22,11 +23,13 @@
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Search City" aria-label="Search City"
                         aria-describedby="button-addon2" id="search-term">
+                
                     <div class="input-group-append">
                         <button class="btn btn-outline-light text-dark btn-light  search-button" type="button"
                             id="button-addon2">Search</button>
                     </div>
                 </div>
+                <!-- The city list appears -->
                 <ul id="city-list" style="list-style: none;"></ul>
             </div>
             <div class="col-sm-1 mr-n5"></div>
