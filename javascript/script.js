@@ -14,7 +14,7 @@ function renderCities() {
         button.text(city);
         button.attr("data-index", i);
         button.attr("style", "width: 100%")
-        button.addClass("btn shadow-box opacity-2 hist-button text-white");
+        button.addClass("btn shadow-box hist-button text-black");
         li.append(button);
         $("#city-list").prepend(li);
         $("#city-list").prepend("<br>");

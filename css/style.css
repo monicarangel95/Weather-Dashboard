@@ -14,5 +14,12 @@ h4{
 }
 
 .btn{
-    color: white;
+    color: rgb(250, 244, 244);
+}
+
+.li{
+    color: black;
+}
+#city-list{
+    color: black
 }
