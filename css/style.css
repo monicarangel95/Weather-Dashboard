@@ -1,11 +1,18 @@
 
 body {
-    background-color: rgb(174, 175, 175);
-
+    background-color: rgb(247, 248, 248);
+    color: darkblue;
     background-size: 1550px;
     background-repeat: no-repeat;
 }
-.weather-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.card {
+    box-shadow: 0 4px 8px 0 rgba(13, 122, 245, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:lightgoldenrodyellow;
+}
+h4{
+    color: black;
 }
 
+.btn{
+    color: white;
+}
