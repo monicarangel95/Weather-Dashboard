@@ -10,7 +10,7 @@
   - [Questions](#questions)
 
 
-  - [Description](#description)
+## Description
 A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 The following image demonstrates the application functionality:
 ![weather dashboard](./Assets/Weather-Dashboard.jpeg)
